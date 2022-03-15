@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -16,16 +17,53 @@
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="”icon”" href="" />
+  <link rel="icon" href="images/common/favicon.ico" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
+  <!-- css/Swiper 8.0.7 -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- css/Swiper 8.0.7 css layout setting -->
+  <link rel="stylesheet" href="css/swiper-bundle.css">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/c35a97a40d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div class="inner">
-  <p class="test">変更のテスト</p>
-</div>
+  <!-- copy start -->
+  <div class="swiper">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide-img">
+            <img src="https://picsum.photos/id/1041/1200/640" alt="img1">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-img">
+            <img src="https://picsum.photos/id/1016/1200/640" alt="img2">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-img">
+            <img src="https://picsum.photos/id/1056/1200/640" alt="img3">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next next-mdfy"></div>
+    <div class="swiper-button-prev prev-mdfy"></div>
+
+  </div>
+  <!-- copy end -->
+
+  <!-- js Swiper 8.0.7 -->
+  <script src="js/swiper-bundle.min.js"></script>
 </body>
+
 </html>
